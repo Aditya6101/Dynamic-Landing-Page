@@ -28,15 +28,15 @@ function setBgGreet() {
 
   if (hour < 12) {
     // Morning
-    document.body.style.backgroundImage = "url('Images/morning.jpg')";
+    document.body.style.backgroundImage = "url('https://github.com/Aditya6101/Dynamic-Landing-Page/blob/master/images/morning.jpg')";
     greet.textContent = "Good Morning, ";
   } else if (hour < 18) {
     // Afternoon
-    document.body.style.backgroundImage = "url('IMages/afternoon.jpg')";
+    document.body.style.backgroundImage = "url('https://github.com/Aditya6101/Dynamic-Landing-Page/blob/master/images/afternoon.jpg')";
     greet.textContent = "Good Afternoon, ";
   } else {
     // Evening
-    document.body.style.backgroundImage = "url('Images/night.jpg')";
+    document.body.style.backgroundImage = "url('https://github.com/Aditya6101/Dynamic-Landing-Page/blob/master/images/night.jpg')";
     greet.textContent = "Good Evening, ";
     document.body.style.color = "white";
   }
